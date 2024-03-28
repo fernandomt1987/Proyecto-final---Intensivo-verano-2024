@@ -114,18 +114,22 @@ h1 .last-name{
 .icon-ig:hover{
     transform: scale(1.2);
     transition: all 250ms ease-in-out;
+    color: var(--secundary-color);
 }
 .icon-git:hover{
     transform: scale(1.2);
     transition: all 250ms ease-in-out;
+    color: var(--secundary-color);
 } 
 .icon-twiter:hover{
     transform: scale(1.2);
     transition: all 250ms ease-in-out;
+    color: var(--secundary-color);
 } 
 .icon-linkedin:hover{
     transform: scale(1.2);
     transition: all 250ms ease-in-out;
+    color: var(--secundary-color);
 }
 
 
