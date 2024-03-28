@@ -1,0 +1,31 @@
+/*FUENTES*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+/* BOOTSTRAP */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+/*NORMALIZACION*/
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: var(--ff-normal);
+    color: var(--primary-color);
+    font-weight: 500px;
+}
+/* VARIABLES*/
+:root{
+    --ff-title:"Plus Jakarta Sans", sans-serif;/* Hs*/    
+    --ff-normal:"Inter", sans-serif; /* TEXTO VARIOS */    
+   
+    --fs-abovetitle: 12px; 
+    --fs-title: 36px;
+    --fs-subtitle: 16px;
+    --fs-text:14px;   
+   
+    --primary-color:#232E35; /* TITULOS, PARRAFOS, ICONOS */
+    --secundary-color:#7E74f1; /* SPAN, ICON, HOVER */
+    --terciary-color:#FBFBFB; /* BACKGROUND: SPECIALIZED, WORK EXPI, TESTI, FORM */
+    --forth-color:#EAE6FE; /*BG Card*/
+    --fifth-color: #656D72; /*above titles*/
+    --sixth-color: #F5F3FE; /*bg-color-card-icons*/
+}
